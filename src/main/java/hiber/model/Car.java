@@ -19,7 +19,7 @@ public class Car implements Serializable {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue//(strategy = GenerationType.IDENTITY)
     Long id;
 
     @Column(name = "car_model", nullable = false)

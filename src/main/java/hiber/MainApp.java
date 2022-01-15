@@ -5,7 +5,7 @@ import hiber.model.Car;
 import hiber.model.User;
 import hiber.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
+//import org.springframework.orm.hibernate5.HibernateTransactionManager;
 
 import javax.persistence.EntityManager;
 import java.sql.SQLException;
